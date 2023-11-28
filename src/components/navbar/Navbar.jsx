@@ -46,9 +46,7 @@ const Navbar = () => {
         <div className="md:flex items-center ml-4 hidden">
           <div className="md:mr-6 lg:mr-12">
             <ul className="flex md:space-x-6 lg:space-x-12 !text-white">
-              <li>
-                <a href="/work">Work</a>
-              </li>
+
               <li>
                 <a href="/profile">About</a>
               </li>

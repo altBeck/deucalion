@@ -8,6 +8,10 @@ import brz from "../../assets/breeze-logo.svg"
 import pc from "../../assets/pc-logo.svg";
 
 import coverOne from "../../assets/img/pc-cover.png";
+import wayaa from "../../assets/img/wayaa-cover.png"
+import agenda from "../../assets/img/agenda-cover.png";
+import razr from "../../assets/img/razr-cover.png";
+import hoobank from "../../assets/img/hoobank-cover.png";
 
 const Home = () => {
   return (
@@ -30,7 +34,7 @@ const Home = () => {
 
       <section className="relative mx-auto hidden md:block pb-12">
         <div className="text-center">
-          <div className="font-display mx-auto text-8xl xl:-mt-[60%] text-white">
+          <div className="font-display mx-auto text-8xl md:-mt-[20%] lg:-mt-[35%] xl:-mt-[60%] 2xl:-mt-[120%] text-white">
             <h1 className="text-left">beck kanno</h1>
             <h1 className="leading-[5rem]">— user interface <br /><span className="ml-16">designer©</span></h1>
           </div>
@@ -76,6 +80,9 @@ const Home = () => {
             </div>
 
             {/* PORTFOLIO */}
+
+
+            {/* NUMBAH 1 */}
             
             <div>
               <Link to="/portal-check">
@@ -110,6 +117,147 @@ const Home = () => {
             </div>
 
 
+
+            {/* NUMBAH 2 */}
+
+            <div className="pt-8">
+                <Link to="/razr">
+                  <img 
+                    src={razr}
+                    alt="Razr Cover Image"
+                    className="rounded-lg"
+                  />
+                </Link>
+
+                <div className="mt-4">
+                  <h1 className="font-display text-4xl">
+                    razr
+                  </h1>
+                  <p>A case study of a digital photography website.</p>
+                  
+                  <div className="flex justify-between items-center mt-3">
+                    <div className="flex space-x-2 text-sm">
+                      <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">WEB DESIGN</p>
+                      <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">CASE STUDY</p>
+                    </div>
+
+                    <Link to="/wayaa">
+                      <img 
+                        src={link}
+                        alt="external link icon"
+                      />
+                    </Link>
+                  </div>
+                </div>
+            </div>
+
+
+
+
+            <div className="pt-8">
+              <Link to="/wayaa">
+                <img 
+                  src={wayaa}
+                  alt="Wayaa Cover Image"
+                  className="rounded-lg"
+                />
+              </Link>
+
+              <div className="mt-4">
+                <h1 className="font-display text-4xl">
+                  wayaa
+                </h1>
+                <p>A digital fintech platform that enables people to make payments without a physical card and receive money abroad.</p>
+                
+                <div className="flex justify-between items-center mt-3">
+                  <div className="flex space-x-2 text-sm">
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">APP DESIGN</p>
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">PRODUCT DESIGN</p>
+                  </div>
+
+                  <Link to="/wayaa">
+                    <img 
+                      src={link}
+                      alt="external link icon"
+                    />
+                  </Link>
+                </div>
+              </div>
+      
+            </div>
+
+
+            {/* NUMBAH 3 */}
+
+            <div className="pt-8">
+                <Link to="/agenda">
+                  <img 
+                    src={agenda}
+                    alt="Agenda Cover Image"
+                    className="rounded-lg"
+                  />
+                </Link>
+
+                <div className="mt-4">
+                  <h1 className="font-display text-4xl">
+                    agenda
+                  </h1>
+                  <p>A social task management app that helps teams manage and organise tasks or projects more effectively.</p>
+                  
+                  <div className="flex justify-between items-center mt-3">
+                    <div className="flex space-x-2 text-sm">
+                      <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">APP DESIGN</p>
+                      <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">PRODUCT DESIGN</p>
+                    </div>
+
+                    <Link to="/agenda">
+                      <img 
+                        src={link}
+                        alt="external link icon"
+                      />
+                    </Link>
+                  </div>
+                </div>
+            </div>
+
+
+            {/* NUMBAH 4 */}
+
+
+                          
+                          
+            {/* NUMBAH 5 */}
+
+            <div className="pt-8">
+                <Link to="https://myhoobank.netlify.app/">
+                  <img 
+                    src={hoobank}
+                    alt="Hoobank Cover Image"
+                    className="rounded-lg"
+                  />
+                </Link>
+
+                <div className="mt-4">
+                  <h1 className="font-display text-4xl">
+                    hoobank
+                  </h1>
+                  <p>A landing page for a digital fintech platform, built using ReactJS and TailwindCSS.</p>
+                  
+                  <div className="flex justify-between items-center mt-3">
+                    <div className="flex space-x-2 text-sm">
+                      <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">WEB DESIGN</p>
+                      <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium">FRONTEND DEVELOPMENT</p>
+                    </div>
+
+                    <Link to="https://myhoobank.netlify.app/">
+                      <img 
+                        src={link}
+                        alt="external link icon"
+                      />
+                    </Link>
+                  </div>
+                </div>
+            </div>
           </article>
         </div>
 
