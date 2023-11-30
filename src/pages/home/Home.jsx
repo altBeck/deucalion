@@ -12,10 +12,14 @@ import wayaa from "../../assets/img/wayaa-cover.png"
 import agenda from "../../assets/img/agenda-cover.png";
 import razr from "../../assets/img/razr-cover.png";
 import hoobank from "../../assets/img/hoobank-cover.png";
+import { Navbar } from "../../components";
 
 const Home = () => {
   return (
     <main className="h-screen flex flex-col bg-gradient-to-b from-regal-100 via-black via-40% md:via-35% lg:via-25% xl:via-50% to-black">
+      <div>
+        <Navbar />
+      </div>
       <div className="-z-50">
         <img 
           src={preview}
