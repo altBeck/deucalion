@@ -72,8 +72,8 @@ const Wayaa = () => {
                 </div>
                 <div>
                   <h1 className="font-medium text-sm">Team</h1>
-                  <p><span className="font-semibold  text-rogue-200">Bryan Ebeh</span> — SWE</p>
-                  <p><span className="font-semibold mt-2 text-rogue-200">Tonye Banigo</span> — Brand Designer</p>
+                  <p><span className="font-medium text-off-white-300  hover:text-rogue-200">Bryan Ebeh</span> — SWE</p>
+                  <p><span className="font-medium text-off-white-300  hover:text-rogue-200">Tonye Banigo</span> — Brand Designer</p>
                   <p></p>
                   <p></p>
                 </div>
@@ -88,7 +88,7 @@ const Wayaa = () => {
               <div className=" flex-col flex items-stretch w-[80%]">
                 <h1 className="font-medium text-sm">Overview</h1>
                 <p>Wayaa aims to provide a user-friendly platform that facilitates secure and swift transactions. With a focus on enhancing regional financial interactions, Wayaa aims to streamline and optimize close regional transactions, catering to the unique needs and challenges of the Western African market.</p>
-                <p>
+                <p className="mt-2">
                 I led the design efforts, creating a seamless user experience that birthed it&apos;s website, design system, and the mobile app. My role revolves around ensuring an intuitive intuitive navigation, visual appeal, and addressing critical user needs, reinforcing the product&apos;s success in the market.
                 </p>
               </div>
