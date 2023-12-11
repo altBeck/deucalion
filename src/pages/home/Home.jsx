@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Navbar, Status } from "../../components";
 
 import link from "../../assets/external-link.svg";
 import preview from "../../assets/preview.png";
@@ -12,13 +13,15 @@ import wayaa from "../../assets/img/wayaa-cover.png"
 import agenda from "../../assets/img/agenda-cover.png";
 import razr from "../../assets/img/razr-cover.png";
 import hoobank from "../../assets/img/hoobank-cover.png";
-import { Navbar } from "../../components";
+
+
 
 const Home = () => {
   return (
     <main className="h-screen flex flex-col bg-gradient-to-b from-regal-100 via-black via-40% md:via-35% lg:via-25% xl:via-50% to-black">
       <div>
         <Navbar />
+        
       </div>
       <div className="-z-50">
         <img 
@@ -76,6 +79,10 @@ const Home = () => {
         </div>
 
         <div className="max-w-screen-sm mx-auto bg-white rounded-3xl mt-10 text-black p-4">
+
+          
+
+
           <div className="mx-auto p-[3px] bg-blu-100 rounded-full w-16 m-2"/>
 
           <article className="p-4">
@@ -265,6 +272,9 @@ const Home = () => {
           </article>
         </div>
 
+        <div className="fixed left-0 top-0 h-full flex-col items-center justify-center hidden xl:flex">
+          <Status />
+        </div>
       </section>
 
 
@@ -350,6 +360,8 @@ const Home = () => {
 
         </div>
       </section>
+
+      
     </main>
   )
 }
