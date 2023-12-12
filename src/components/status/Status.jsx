@@ -6,11 +6,14 @@ import img1 from "../../assets/img/comp/uni-1.png";
 import img2 from "../../assets/img/comp/uni-2.png";
 import img3 from "../../assets/img/comp/uni-3.png";
 import img4 from "../../assets/img/comp/uni-4.png";
+import img5 from "../../assets/img/comp/uni-5.png";
+import img6 from "../../assets/img/comp/uni-6.png";
+import img7 from "../../assets/img/comp/uni-7.png";
 
 const Status = () => {
   const images = useMemo(
     () => [
-      img1, img2, img3, img4
+      img1, img2, img3, img4, img5, img6, img7
     ],
     []
   );
@@ -62,7 +65,7 @@ const Status = () => {
 
   return (
     isVisible && (
-      <div className="flex flex-col space-x-4 p-4 bg-rogue-500 bg-opacity-40 border border-off-white-50 border-opacity-40 rounded-[14px] m-[14px]">
+      <div className="flex flex-col space-x-4 p-4 bg-rogue-500 bg-opacity-40 border border-off-white-50 border-opacity-40 rounded-[14px] m-[14px] soft-shadow">
         <button onClick={handleClose} className="self-end">
           <img 
             src={close}
