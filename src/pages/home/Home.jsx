@@ -13,7 +13,7 @@ import wayaa from "../../assets/img/wayaa-cover.png"
 import agenda from "../../assets/img/agenda-cover.png";
 import razr from "../../assets/img/razr-cover.png";
 import hoobank from "../../assets/img/hoobank-cover.png";
-
+import poapool from "../../assets/img/poa-preview.png";
 
 
 const Home = () => {
@@ -236,7 +236,7 @@ const Home = () => {
             {/* NUMBAH 5 */}
 
             <div className="pt-8">
-              <Link to="https://myhoobank.netlify.app/">
+              <Link to="https://myhoobank.netlify.app/" target="_blank">
                 <img 
                   src={hoobank}
                   alt="Hoobank Cover Image"
@@ -256,12 +256,40 @@ const Home = () => {
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
                   </div>
 
-                  <Link to="https://myhoobank.netlify.app/">
+                  <Link to="https://myhoobank.netlify.app/" target="_blank">
                     <img 
                       src={link}
                       alt="external link icon"
                     />
                   </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* NUMBAH 6 */}
+
+            <div className="pt-8">
+              <Link to="https://poapool.com/" target="_blank">
+                <img 
+                  src={poapool}
+                  alt="Poapool Cover Image"
+                  className="rounded-lg"
+                />
+              </Link>
+
+              <div className="mt-4">
+                <h1 className="font-display text-4xl">
+                  poapool
+                </h1>
+                <p className="font-body">A landing page for a digital fintech platform, built using ReactJS and TailwindCSS.</p>
+                  
+                <div className="flex justify-between items-center mt-3">
+                  <div className="flex space-x-2 text-sm">
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">WEB DESIGN</p>
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
+                  </div>
+
+                  
                 </div>
               </div>
             </div>
@@ -435,7 +463,7 @@ const Home = () => {
             {/* NUMBAH 5 */}
 
             <div className="pt-8">
-              <Link to="https://myhoobank.netlify.app/">
+              <Link to="https://myhoobank.netlify.app/" target="_blank">
                 <img 
                   src={hoobank}
                   alt="Hoobank Cover Image"
@@ -460,6 +488,34 @@ const Home = () => {
               </div>
             </div>
 
+
+            {/* NUMBAH 6 */}
+
+            <div className="pt-8">
+              <Link to="https://poapool.com/" target="_blank">
+                <img 
+                  src={poapool}
+                  alt="Poapool Cover Image"
+                  className="rounded-lg"
+                />
+              </Link>
+
+              <div className="mt-4">
+                <h1 className="font-display text-4xl">
+                  poapool
+                </h1>
+                <p className="font-body">A landing page for a digital fintech platform, built using ReactJS and TailwindCSS.</p>
+                  
+                <div className="flex justify-between items-center mt-3">
+                  <div className="flex space-x-2 text-xs">
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">WEB DESIGN</p>
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
+                  </div>
+
+                  
+                </div>
+              </div>
+            </div>
 
             </article>
           </div>

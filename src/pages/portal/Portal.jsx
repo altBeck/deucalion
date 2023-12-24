@@ -9,10 +9,6 @@ import typo from "../../assets/img/pc/dsTypography.png";
 import portal from "../../assets/img/pc-cover.png";
 import students from "../../assets/img/pc/students.png";
 
-import tinkle from "../../assets/arrow-left-blue.svg";
-import img8 from "../../assets/img/agenda/agenda-frame.png";
-import img9 from "../../assets/img/agenda/agenda-logo-inverted.svg";
-
 const Portal = () => {
   const [isScrolling, setIsScrolling] = useState(false);
 
@@ -184,49 +180,18 @@ const Portal = () => {
 
       </div>
 
-      <div className="py-12">
-        <h1 className="text-center text-2xl font-semibold">Have you had a chance to explore my other projects? <br />👀</h1>
 
-        <div className="pt-16 flex flex-row justify-center space-x-8">
-              
-
-          <div className="w-80 h-80 bg-white rounded-3xl soft-shadow text-center">
-            
-                <div className="p-8">
-                  <img 
-                    src={img9}
-                    alt="agenda logo"
-                    className="mx-auto pb-1"
-                  />
-
-                  <p className="text-2xl font-medium">task management <br />on the go.</p>
-
-                  <Link 
-                    to="/agenda"
-                    className="flex justify-center items-center pt-2"
-                  >
-                    <span className="flex space-x-1">
-                      <span className="text-blu-200 text-lg font-semibold">Next project</span>
-                      <img 
-                        src={tinkle}
-                        alt="blue right arrow"
-                      />
-                    </span>
-                  </Link>
-
-                  <img 
-                    src={img8}
-                    alt="Agenda Frame"
-                    width={160}
-                    className="mt-4 mx-auto"
-                  />
-                </div>
-              </div>
-          </div>
-
-        </div>
+        
       </div>
 
+      <div className="py-12" />
+          
+      <div className="py-12 bg-orange-400 text-white">
+        <div className="container mx-auto">
+          <Link to="/razr" className="font-display text-[144px]">Next project: Razr Studio  
+          </Link>
+        </div>
+      </div>
 
     </main>
   )

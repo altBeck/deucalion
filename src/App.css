@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 .see-through {
-  @apply bg-[rgba(19,19,19,.15)];
-  backdrop-filter: blur(4px);
+  @apply bg-[rgba(19,19,19,.05)];
+  backdrop-filter: blur(2px);
 }
 
 .soft-shadow {
