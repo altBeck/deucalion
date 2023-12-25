@@ -125,8 +125,8 @@ const Home = () => {
             </div>
 
 
-
-            {/* NUMBAH 2 */}
+            
+            {/* NUMBAH 2 
 
             <div className="pt-8">
                 <Link to="/razr">
@@ -159,6 +159,7 @@ const Home = () => {
                 </div>
             </div>
 
+            */}
 
             {/* NUMBAH 3 */}
 
@@ -195,7 +196,7 @@ const Home = () => {
             </div>
 
 
-            {/* NUMBAH 4 */}
+            {/* NUMBAH 4 
 
             <div className="pt-8">
                 <Link to="/agenda">
@@ -228,11 +229,9 @@ const Home = () => {
                 </div>
             </div>
 
+            */}
 
-
-
-                          
-                          
+                  
             {/* NUMBAH 5 */}
 
             <div className="pt-8">
@@ -378,7 +377,7 @@ const Home = () => {
                 </div>
               </div>
           
-            {/* NUMBAH 2 */}
+            {/* NUMBAH 2 
 
             <div className="pt-8">
                 <Link to="/razr">
@@ -403,6 +402,8 @@ const Home = () => {
                   </div>
                 </div>
             </div>
+
+            */}
 
 
             {/* NUMBAH 3 */}
@@ -433,7 +434,7 @@ const Home = () => {
             </div>
 
 
-            {/* NUMBAH 4 */}
+            {/* NUMBAH 4 
 
             <div className="pt-8">
                 <Link to="/agenda">
@@ -458,6 +459,8 @@ const Home = () => {
                   </div>
                 </div>
             </div>
+
+            */}
                  
                           
             {/* NUMBAH 5 */}
@@ -482,7 +485,6 @@ const Home = () => {
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">WEB DESIGN</p>
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
                   </div>
-
                   
                 </div>
               </div>

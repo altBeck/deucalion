@@ -31,15 +31,17 @@ const Portal = () => {
     <main className="flex flex-col bg-off-white-50 text-black">
       <nav className={`px-2 py-4 sm:px-4 sm:py-5 fixed w-full z-20 top-0 left-0 text-sm uppercase font-medium ${isScrolling ? 'see-through' : ''}`}>
         <div className="flex flex-wrap justify-between items-center mx-auto">
-          <Link to="/">
-            <span className="flex items-center space-x-2">
+          <Link to="/"
+            className="p-3 bg-black rounded-full text-white"
+          >
+            <span className="flex items-center space-x-1">
               <img 
                 src={left}
                 alt="Left arrow icon"
                 width={20}
                 height={20}
               />
-              <h1 className="text-normal">
+              <h1 className="text-normal font-semibold">
                 Go to Home
               </h1>
             </span>
@@ -186,12 +188,12 @@ const Portal = () => {
 
       <div className="py-12" />
           
-      <div className="py-12 bg-orange-400 text-white">
+      <Link to="/wayaa" className="py-12 bg-blue-700 text-white">
         <div className="container mx-auto">
-          <Link to="/razr" className="font-display text-[144px]">Next project: Razr Studio  
-          </Link>
+          <div className="font-display text-[144px]">Next project: Wayaa  
+          </div>
         </div>
-      </div>
+      </Link>
 
     </main>
   )

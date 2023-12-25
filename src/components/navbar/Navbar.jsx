@@ -47,9 +47,12 @@ const Navbar = () => {
           <div className="md:mr-6 lg:mr-12">
             <ul className="flex md:space-x-6 lg:space-x-12 !text-white">
 
-              <li>
-                <a href="/about">About</a>
-              </li>
+              {/*              
+                <li>
+                  <a href="/about">About</a>
+                </li>
+              */}
+
               <li>
                 <a href="https://drive.google.com/file/d/1Mib_7O8Xvx5dfPU3F4d_hrO1xNfUgjGj/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume</a>
               </li>
