@@ -68,8 +68,9 @@ const Portal = () => {
                 </div>
                 <div>
                   <h1 className="font-medium text-lg">Team</h1>
-                  <p><span className="font-medium text-off-white-300  hover:text-rogue-200">Prince Disi</span> — PM</p>
-                  <p><span className="font-medium mt-2 text-off-white-300  hover:text-rogue-200">Tonye Banigo</span> — SWE</p>
+                  <p><span className="font-medium text-off-white-300  hover:text-rogue-200">
+                    <a href="https://www.linkedin.com/in/prince-disi/" target="_blank" rel="noopener noreferrer">Prince Disi</a></span> — PM</p>
+                  <p><span className="font-medium mt-2 text-off-white-300  hover:text-rogue-200"><a href="https://www.linkedin.com/in/kingswill-wariboko-2283821b8/" target="_blank" rel="noopener noreferrer">Kingswill Wariboko</a></span> — SWE</p>
                   <p></p>
                   <p></p>
                 </div>
