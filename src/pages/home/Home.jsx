@@ -295,9 +295,14 @@ const Home = () => {
           </article>
         </div>
 
+        {/*
+        
         <div className="fixed left-0 top-0 h-full flex-col items-center justify-center hidden xl:flex">
           <Status />
         </div>
+        
+        */}
+
       </section>
 
 
