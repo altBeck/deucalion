@@ -110,7 +110,7 @@ const Home = () => {
                 <div className="flex justify-between items-center mt-3">
                   <div className="flex space-x-2 text-sm">
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">DESIGN SYSTEM</p>
-                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body font-body">PRODUCT DESIGN</p>
+                    <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">PRODUCT DESIGN</p>
                   </div>
 
                   <Link to="/portal-check">

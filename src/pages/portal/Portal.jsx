@@ -2,14 +2,17 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import left from "../../assets/arrow-left.svg";
-import vid1 from "../../assets/img/pc/pc_untltd.mp4";
-import demo from "../../assets/img/pc/demo.mp4";
+
+import vid1 from "../../assets/video/pc_untltd.mp4";
+import demo from "../../assets/video/demo.mp4";
+
 import color from "../../assets/img/pc/dsColor.png";
 import typo from "../../assets/img/pc/dsTypography.png";
 import portal from "../../assets/img/pc-cover.png";
 import students from "../../assets/img/pc/students.png";
 
 const Portal = () => {
+  
   const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
@@ -93,8 +96,8 @@ const Portal = () => {
             </div>
           </div>
 
-          <div className="py-4">
-            <video className="rounded-3xl py-4 sm:py-0" autoPlay loop muted>
+          <div className="py-4 rounded-3xl sm:py-0">
+            <video autoPlay loop>
             <source src={vid1} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
@@ -140,7 +143,7 @@ const Portal = () => {
               <button className="bg-[#0053D6] text-white font-semibold px-5 py-3 rounded-full"><a href="https://portal-check.vercel.app" target="_blank" rel="noopener noreferrer">Live site</a></button>
             </div>
           </div>
-          <img className="rounded-3xl soft-shadow" src={portal} alt="Portal Check Website"/>
+          <img className="rounded-3xl w-full soft-shadow" src={portal} alt="Portal Check Website"/>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between py-6 md:py-12">
@@ -160,8 +163,8 @@ const Portal = () => {
           
         </div>
 
-        <video className="rounded-3xl soft-shadow" autoPlay loop muted>
-          <source className="container" src={demo} type="video/mp4" />
+        <video className="rounded-3xl soft-shadow" autoPlay loop>
+          <source src={demo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -244,8 +247,8 @@ const Portal = () => {
             </div>
           </div>
 
-          <div className="py-4">
-            <video className="rounded-xl py-4 sm:py-0" autoPlay loop muted>
+          <div className="rounded-xl py-4 sm:py-0">
+            <video autoPlay loop muted>
             <source src={vid1} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
