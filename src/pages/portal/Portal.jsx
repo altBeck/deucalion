@@ -97,7 +97,7 @@ const Portal = () => {
           </div>
 
           <div className="py-4 rounded-3xl sm:py-0">
-            <video autoPlay loop>
+            <video autoPlay loop className="rounded-3xl soft-shadow">
             <source src={vid1} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
@@ -248,7 +248,7 @@ const Portal = () => {
           </div>
 
           <div className="rounded-xl py-4 sm:py-0">
-            <video autoPlay loop muted>
+            <video autoPlay loop muted className="rounded-3xl soft-shadow">
             <source src={vid1} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
@@ -337,11 +337,8 @@ const Portal = () => {
 
       </div>
 
-
-
         
       </div>
-      <div className="py-4" />
           
       <Link to="/wayaa" className="py-12 bg-blue-700 text-white md:hidden block">
         <div className="container mx-auto">
