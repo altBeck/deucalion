@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Navbar, Status } from "../../components";
 
 import link from "../../assets/external-link.svg";
+import mark from "../../assets/github-mark.svg";
 import preview from "../../assets/preview.png";
 import mobile from "../../assets/mobilePreview.png";
 import och from "../../assets/och-logo.svg";
@@ -255,12 +256,23 @@ const Home = () => {
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
                   </div>
 
-                  <Link to="https://myhoobank.netlify.app/" target="_blank">
-                    <img 
-                      src={link}
-                      alt="external link icon"
-                    />
-                  </Link>
+                  <div className="flex space-x-4">
+                    <Link to="https://github.com/altBeck/hoobank">
+                      <img 
+                        src={mark}
+                        width={24}
+                        height={24}
+                        alt="external link icon"
+                      />
+                    </Link>
+
+                    <Link to="https://myhoobank.netlify.app" target="_blank">
+                      <img 
+                        src={link}
+                        alt="external link icon"
+                      />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -288,7 +300,24 @@ const Home = () => {
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
                   </div>
 
-                  
+                  <div className="flex space-x-4">
+                    <Link to="https://github.com/altBeck/poa-site">
+                      <img 
+                        src={mark}
+                        width={24}
+                        height={24}
+                        alt="external link icon"
+                      />
+                    </Link>
+
+                    <Link to="https://poapool.com">
+                      <img 
+                        src={link}
+                        alt="external link icon"
+                      />
+                    </Link>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -489,6 +518,18 @@ const Home = () => {
                   <div className="flex space-x-2 text-xs">
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">WEB DESIGN</p>
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
+
+                    <Link to="https://myhoobank.netlify.app/"
+                     className="flex items-center"
+                     target="_blank">
+                      <img 
+                        src={mark}
+                        width={24}
+                        height={24}
+                        alt="GitHub Icon"
+                        className="items-center"
+                      />
+                    </Link>
                   </div>
                   
                 </div>
@@ -519,6 +560,17 @@ const Home = () => {
                     <p className="py-2 px-3 soft-shadow border rounded-full text-blu-100 font-medium font-body">FRONTEND DEVELOPMENT</p>
                   </div>
 
+                  <Link to="https://myhoobank.netlify.app/"
+                    className="flex items-center"
+                    target="_blank">
+                    <img 
+                      src={mark}
+                      width={24}
+                      height={24}
+                      alt="GitHub Icon"
+                      className="items-center"
+                    />
+                  </Link>
                   
                 </div>
               </div>
