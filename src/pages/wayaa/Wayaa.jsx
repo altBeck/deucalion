@@ -164,16 +164,6 @@ const Wayaa = () => {
         <div>
           <p className="text-center w-[70%] mx-auto p-4 text-[#86868b] text-2xl font-semibold">This project is currently under wraps due to its confidential nature and ongoing status. The full design process is still in the works and isn&apos;t ready for public viewing. I also have a personal preference for sharing these narratives in a more personal setting.</p>
 
-          <div className="pt-48">
-            <Link to="https://myhoobank.netlify.app" target="_blank" className="py-12 bg-blue-700 text-white block">
-              <div className="container mx-auto">
-                <div className="font-display text-[50px] p-4">Next project: Hoobank  
-                </div>
-              </div>
-            </Link>
-
-
-          </div>
         </div>
       </div>
 
