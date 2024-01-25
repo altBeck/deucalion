@@ -42,7 +42,7 @@ const Home = () => {
 
       <section className="relative mx-auto hidden md:block pb-12">
         <div className="text-center">
-          <div className="font-display mx-auto text-8xl md:-mt-[20%] lg:-mt-[35%] xl:-mt-[60%] 2xl:-mt-[120%] text-white pb-24">
+          <div className="font-display mx-auto text-8xl md:-mt-[20%] lg:-mt-[35%] xl:-mt-[60%] 2xl:-mt-[55%] text-white pb-24">
             <h1 className="text-left">beck kanno</h1>
             <h1 className="text-6xl leading-[3rem]">— user interface <br /><span className="-ml-8">designer©</span></h1>
           </div>
