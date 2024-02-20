@@ -292,7 +292,7 @@ const Home = () => {
                 <h1 className="font-display text-4xl">
                   poapool
                 </h1>
-                <p className="font-body">A landing page for a digital fintech platform, built using ReactJS and TailwindCSS.</p>
+                <p className="font-body">A landing page for a Cardano StakePool-powered crypto platform, built using ReactJS, SASS and TailwindCSS.</p>
                   
                 <div className="flex justify-between items-center mt-3">
                   <div className="flex space-x-2 text-sm">
@@ -552,7 +552,7 @@ const Home = () => {
                 <h1 className="font-display text-4xl">
                   poapool
                 </h1>
-                <p className="font-body">A landing page for a digital fintech platform, built using ReactJS and TailwindCSS.</p>
+                <p className="font-body">A landing page for a Cardano StakePool-powered crypto platform, built using ReactJS, SASS and TailwindCSS.</p>
                   
                 <div className="flex justify-between items-center mt-3">
                   <div className="flex space-x-2 text-xs">
