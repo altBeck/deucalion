@@ -54,7 +54,7 @@ const Navbar = () => {
               */}
 
               <li>
-                <a href="https://drive.google.com/file/d/1Mib_7O8Xvx5dfPU3F4d_hrO1xNfUgjGj/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume</a>
+                <a href="https://drive.google.com/file/d/1CATJNjg7zj5fPPXIUkQ5QiT8THcq9tXR/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume</a>
               </li>
             </ul>
           </div>
